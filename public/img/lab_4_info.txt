@@ -1,0 +1,33 @@
+1. Obiekty modelu(2)
+2. Klasa OpenHelper(1)
+3. Klasy tabel(3)
+4. Obiekty Dao(3+3)
+5. Menedzer danych(1)
+
+inerface DataMarger
+get
+save(Student  student)
+delete
+
+class table
+{
+public table_name;
+class column
+{
+public column_name;
+function onCreate();
+function onUpdate();
+function onDelete();
+}
+}
+
+interface DaoWrite<T>
+{
+save(db);
+delete(db);
+write(db);
+}
+interface DaoRead<T>
+{
+
+}
